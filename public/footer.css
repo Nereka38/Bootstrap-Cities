@@ -1,0 +1,25 @@
+.footer {
+  margin: 3vw;
+  border-top: black solid 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .text-center {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer .text-center .p-3 {
+  padding: 1rem !important;
+  width: 25vw;
+}
+.footer .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer .icons .icon-1, .footer .icons .icon-2, .footer .icons .icon-3 {
+  width: 2%;
+  margin: 1vw;
+}
+
+/*# sourceMappingURL=footer.css.map */

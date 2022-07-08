@@ -1,0 +1,168 @@
+#aside {
+  margin-right: 2%;
+}
+
+#info-cities {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.list-group-item1, .nav-item {
+  color: black;
+  text-shadow: none;
+  text-align: center;
+}
+
+li {
+  color: white;
+  text-shadow: 5px 2px 5px black;
+}
+
+.list-group-flush {
+  list-style: none;
+}
+
+.list-group {
+  padding: 5%;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+.list-group .list-group-item1 {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.list-group .list-group-item2, .list-group .list-group-item3, .list-group .list-group-item4, .list-group .list-group-item5, .list-group .list-group-item6, .list-group .list-group-item7 {
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+.list-group .list-group-item2 {
+  background-image: url(https://drscdn.500px.org/photo/292577021/m%3D900/v2?sig=fe5aa7ac1a9482aa7fffde354125e1490c0305f461d6fccd5978ec3ebd5a889f);
+}
+.list-group .list-group-item3 {
+  background-image: url(https://img.remediosdigitales.com/9e67a4/650_1000_shanghai1/450_1000.jpg);
+}
+.list-group .list-group-item4 {
+  background-image: url(https://content.r9cdn.net/rimg/dimg/7e/34/4e0ebeaf-city-25894-162e5247af5.jpg?crop=true&width=1366&height=768&xhint=1475&yhint=894);
+}
+.list-group .list-group-item5 {
+  background-image: url(https://www.bautrip.com/images/front/sao-paulo.jpg);
+}
+.list-group .list-group-item6 {
+  background-image: url(https://www.gotokyo.org/es/plan/tokyo-outline/images/main.jpg);
+}
+.list-group .list-group-item7 {
+  background-image: url(https://fotos.hoteles.net/articulos/guia-barcelona-ciudad-2400-1.jpg);
+}
+
+.button-cities {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 3% 3% 0;
+}
+.button-cities .btn {
+  border-radius: 20px;
+}
+
+.card-columns, .card {
+  display: inline-block;
+  width: 100%;
+}
+.card-columns .card-img-top, .card .card-img-top {
+  width: 100%;
+  height: 200px !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.best-restaurants {
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 1vw;
+}
+.best-restaurants .title-best-restaurants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+.best-restaurants .container-restaurants {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.best-restaurants .cards2 {
+  text-align: center;
+}
+.best-restaurants .rounded-circle {
+  width: 100%;
+  height: 50%;
+  border-radius: 50% !important;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2-text {
+  text-align: center;
+}
+
+.footer {
+  margin: 3vw;
+  border-top: black solid 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .text-center {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer .text-center .p-3 {
+  padding: 1rem !important;
+  width: 25vw;
+}
+.footer .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer .icons .icon-1, .footer .icons .icon-2, .footer .icons .icon-3 {
+  width: 2%;
+  margin: 1vw;
+}
+
+.navbar-brand {
+  font-size: 4vw;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 0;
+}
+
+.d-block {
+  width: 100%;
+  height: 300px !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.title-carousel {
+  position: absolute;
+  right: 15%;
+  bottom: 80px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 3vw;
+}
+
+/*# sourceMappingURL=style.css.map */

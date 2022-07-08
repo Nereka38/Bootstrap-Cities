@@ -1,0 +1,38 @@
+.best-restaurants {
+    width:100%;
+    background-color: grey;
+    margin-bottom: 1vw;
+    
+    .title-best-restaurants {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+
+    .container-restaurants {
+        display:flex;
+        justify-content:space-evenly;
+        flex-flow: row wrap,
+      }
+    
+      .cards2 {
+        text-align: center;
+      }
+
+      .rounded-circle {
+        width: 100%;
+        height: 50%;
+        border-radius: 50%!important;
+  }
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2-text {
+    text-align: center;
+}
